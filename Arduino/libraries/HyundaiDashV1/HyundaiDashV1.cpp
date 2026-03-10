@@ -179,6 +179,8 @@ void HyundaiDashV1::updateFuel() {
 void HyundaiDashV1::turnSignalSound(bool signalOn) {
 	if(!enableTurnSignalSound) return;
 	if(signalOn == previousSignal) return;
+    if(turnSignalID && ignitionState < 2) return;
+    
 	if(signalOn && !previousSignal) tone(buzzerPin, 1000, 5);
 	else if(!signalOn && previousSignal) tone(buzzerPin, 500, 5);
 	previousSignal = signalOn;
