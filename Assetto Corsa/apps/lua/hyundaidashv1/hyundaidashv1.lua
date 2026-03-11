@@ -64,7 +64,7 @@ function script.update(dt)
     if car.engineLifeLeft <= 800 then showLights = bit.bor(showLights, DL_CHECKENG) end
     if oilPres < 1 or oilTemp > 130 then showLights = bit.bor(showLights, DL_OILWARN) end
     if handbrake > 0 then showLights = bit.bor(showLights, DL_HANDBRAKE) end
-    if car.tractionControlInAction or car.tractionControlMode == 0 then showLights = bit.bor(showLights, DL_TC) end
+    if car.tractionControlInAction or (car.tractionControlModes ~= 0 and car.tractionControlMode == 0) then showLights = bit.bor(showLights, DL_TC) end
     if car.turningLeftLights and car.turningLightsActivePhase then showLights = bit.bor(showLights, DL_SIGNAL_L) end
     if car.turningRightLights and car.turningLightsActivePhase then showLights = bit.bor(showLights, DL_SIGNAL_R) end
     if car.hazardLights and car.turningLightsActivePhase then
