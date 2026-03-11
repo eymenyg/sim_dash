@@ -246,7 +246,7 @@ private:
     
     unsigned long tcLightActiveTime = 0;
     bool previousTCLightStatus = false;
-    static constexpr unsigned long tcIntervalMs = 500;
+    static constexpr unsigned long tcIntervalMs = 1000;
 
 	// Serial buffer
     bool newData = false;
