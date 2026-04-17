@@ -1196,167 +1196,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Buzzer"
-			(pin_names
-				(offset 0.0254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BZ"
-				(at 3.81 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Buzzer"
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -0.635 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -0.635 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Buzzer, polarized"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz resonator ceramic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Buzzer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Buzzer_0_1"
-				(polyline
-					(pts
-						(xy -1.651 1.905) (xy -1.143 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 2.159) (xy -1.397 1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.175)
-					(mid 3.1612 0)
-					(end 0 -3.175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy 0 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Buzzer_1_1"
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3602,36 +3441,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "LS: Low-Side Switch"
-		(exclude_from_sim no)
-		(at 72.644 19.304 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "048bf73b-63a8-46a6-bdb9-46d1eb34a13b")
-	)
-	(text "H-L"
-		(exclude_from_sim no)
-		(at 164.084 101.854 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "09a6f4b0-6dd5-4c1b-bc79-728c25106bc4")
-	)
-	(text "VCC\n\nGND\n\nCS\n\nSO\n\nSI\n\nSCK\n\nINT"
-		(exclude_from_sim no)
-		(at 163.322 67.564 0)
-		(effects
-			(font
-				(size 0.8 0.8)
-			)
-		)
-		(uuid "2ccb75fe-a695-4f08-a124-39edb390ecd5")
-	)
 	(text "H-L"
 		(exclude_from_sim no)
 		(at 141.224 101.854 0)
@@ -3654,16 +3463,6 @@
 	)
 	(text "H-L"
 		(exclude_from_sim no)
-		(at 164.084 86.614 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5e4f7e00-d523-4254-b35c-ff9696a84bb2")
-	)
-	(text "H-L"
-		(exclude_from_sim no)
 		(at 141.224 86.614 0)
 		(effects
 			(font
@@ -3683,12 +3482,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1977d364-ed7c-4abf-9d3c-b139e9dcde26")
-	)
-	(junction
-		(at 154.94 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2344e4cc-aa38-4aa0-bb9a-49c4882b09c6")
 	)
 	(junction
 		(at 203.2 57.15)
@@ -3765,6 +3558,10 @@
 		(uuid "14a7c5d0-d474-4117-9218-0164ae0d4179")
 	)
 	(no_connect
+		(at 49.53 99.06)
+		(uuid "185d78df-0a85-4940-b3c4-3d24bd65aa30")
+	)
+	(no_connect
 		(at 74.93 114.3)
 		(uuid "1e7f8f8d-6e66-4aa1-b0d4-c54458d65b4b")
 	)
@@ -3791,6 +3588,10 @@
 	(no_connect
 		(at 114.3 76.2)
 		(uuid "7d19dd8f-23bb-4606-80e0-d9cb840ce136")
+	)
+	(no_connect
+		(at 49.53 104.14)
+		(uuid "8047e14c-a6a5-4b7b-8c7b-cfb70bf2dc2e")
 	)
 	(no_connect
 		(at 49.53 83.82)
@@ -3956,16 +3757,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 62.23) (xy 170.18 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33044091-bb92-4808-86e0-eba221450b4e")
-	)
-	(wire
-		(pts
 			(xy 35.56 109.22) (xy 49.53 109.22)
 		)
 		(stroke
@@ -3996,13 +3787,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 52.07) (xy 139.7 52.07)
+			(xy 137.16 59.69) (xy 139.7 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bb17979-f138-4123-89d3-3c3bcb09e2df")
+		(uuid "415e5d63-4e57-4b54-8097-1378efa9c898")
 	)
 	(wire
 		(pts
@@ -4063,16 +3854,6 @@
 			(type default)
 		)
 		(uuid "5147512d-8894-4f90-bb83-9e4c29a7d214")
-	)
-	(wire
-		(pts
-			(xy 170.18 52.07) (xy 154.94 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "515060fd-abcb-44ed-a69f-2ce5e6aaf8a0")
 	)
 	(wire
 		(pts
@@ -4196,16 +3977,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 99.06) (xy 49.53 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bb6d48f-337d-435a-b04a-8dbc89555c0c")
-	)
-	(wire
-		(pts
 			(xy 91.44 26.67) (xy 91.44 39.37)
 		)
 		(stroke
@@ -4213,16 +3984,6 @@
 			(type default)
 		)
 		(uuid "7d99c32e-9a4a-4aae-8dc3-05db7bc542e0")
-	)
-	(wire
-		(pts
-			(xy 29.21 104.14) (xy 49.53 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "888a1e42-913c-4937-ad44-ff8f7e095871")
 	)
 	(wire
 		(pts
@@ -4303,16 +4064,6 @@
 			(type default)
 		)
 		(uuid "a44c579c-4c09-4a31-9162-1b36dbb7c2d8")
-	)
-	(wire
-		(pts
-			(xy 170.18 59.69) (xy 170.18 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5fca592-a947-4c0b-90cc-b3d2c1ca7e47")
 	)
 	(wire
 		(pts
@@ -4546,7 +4297,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 52.07) (xy 139.7 59.69)
+			(xy 137.16 52.07) (xy 137.16 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4654,16 +4405,6 @@
 		)
 		(uuid "0379e41e-5aa8-4c7a-90ba-e35b4932fd62")
 	)
-	(label "SCK"
-		(at 170.18 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "048c4c61-856e-4160-bebc-d98f64804abd")
-	)
 	(label "C-CAN_N"
 		(at 142.24 95.25 0)
 		(effects
@@ -4703,16 +4444,6 @@
 			(justify right bottom)
 		)
 		(uuid "147a9091-6868-41f3-9a8c-0da9121ffe86")
-	)
-	(label "B-CAN_P"
-		(at 162.56 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1c00384d-ed63-4514-9855-ae374a877cee")
 	)
 	(label "Serial Data"
 		(at 35.56 88.9 0)
@@ -4764,16 +4495,6 @@
 		)
 		(uuid "4127d5bd-b69d-43e7-8854-9b2acc38af69")
 	)
-	(label "MISO"
-		(at 170.18 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4c5e3c48-0bee-4e1c-9cb5-ef86d06be81e")
-	)
 	(label "12V"
 		(at 66.04 39.37 0)
 		(effects
@@ -4794,16 +4515,6 @@
 		)
 		(uuid "5b11fa41-63c3-46af-b544-b711f623573b")
 	)
-	(label "B-CAN_N"
-		(at 165.1 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6936edd3-85a0-4252-b39c-205ddcbdd860")
-	)
 	(label "Serial Data"
 		(at 218.44 116.84 90)
 		(effects
@@ -4823,26 +4534,6 @@
 			(justify left bottom)
 		)
 		(uuid "85b88124-effc-4193-a411-f5aad31bdf92")
-	)
-	(label "MOSI"
-		(at 170.18 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "88d378d0-1716-4587-9bdc-9d347d826bc4")
-	)
-	(label "CAN_CS_B"
-		(at 35.56 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8cdf73fb-134a-4311-b830-a672e9d94e85")
 	)
 	(label "Master Reset"
 		(at 35.56 96.52 0)
@@ -4904,26 +4595,6 @@
 		)
 		(uuid "abd0b95f-64b1-49a8-8912-c15ada82b727")
 	)
-	(label "B-CAN_P"
-		(at 162.56 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ba4b3f62-09d1-4c77-b1e2-d7c66b16ae5b")
-	)
-	(label "CAN_CS_B"
-		(at 170.18 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c22b6f81-e337-4b3e-b197-0029fdfc08ed")
-	)
 	(label "MISO"
 		(at 35.56 111.76 0)
 		(effects
@@ -4953,16 +4624,6 @@
 			(justify left bottom)
 		)
 		(uuid "cfea4193-e239-4179-a904-4258f7eb5e08")
-	)
-	(label "CAN_INT"
-		(at 170.18 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e976df15-4d44-4c68-a05b-8d7e74dc3765")
 	)
 	(label "CAN_CS_C"
 		(at 129.54 64.77 0)
@@ -4994,16 +4655,6 @@
 		)
 		(uuid "f99721c1-94f7-44dd-8459-01262ac9027e")
 	)
-	(label "B-CAN_N"
-		(at 165.1 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe8cdd35-c3c4-4d71-8b8d-51fcb641d388")
-	)
 	(symbol
 		(lib_id "power:GND")
 		(at 203.2 116.84 0)
@@ -5014,7 +4665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07066174-0208-4289-a69c-e7e5b1e0ec72")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR010"
 			(at 203.2 123.19 0)
 			(effects
 				(font
@@ -5064,7 +4715,7 @@
 		(instances
 			(project "Elantra_Nano"
 				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "#PWR014")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5223,71 +4874,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 179.07 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d13ef0e-d96b-4dae-a7c0-73caa68999d4")
-		(property "Reference" "#PWR010"
-			(at 179.07 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 180.086 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "492ed34d-a83e-4389-88db-0265df4ba61e")
-		)
-		(instances
-			(project "Kia_Dash_V1"
-				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 139.7 100.33 90)
 		(unit 1)
@@ -5358,76 +4944,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Buzzer")
-		(at 26.67 101.6 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a34c057-1ac4-4cf0-bbf4-fb4103e7e3be")
-		(property "Reference" "BZ1"
-			(at 22.86 99.5748 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Buzzer"
-			(at 22.86 102.1148 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
-			(at 29.21 102.235 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 102.235 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Buzzer, polarized"
-			(at 26.67 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0805997a-c0be-4936-bdde-1dd41e542d7f")
-		)
-		(pin "1"
-			(uuid "84002f07-e80b-468a-a8e1-713cdef40902")
-		)
-		(instances
-			(project "Hyundai_Dash_V1"
-				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "BZ1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 193.04 41.91 90)
 		(mirror x)
@@ -5438,7 +4954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d5758af-097c-4be6-8602-0c9c8f50291c")
-		(property "Reference" "J10"
+		(property "Reference" "J6"
 			(at 196.85 41.2749 90)
 			(effects
 				(font
@@ -5492,7 +5008,7 @@
 		(instances
 			(project "Elantra_Nano"
 				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "J10")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5508,7 +5024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "329cbe16-3458-457c-9a13-07801414ae86")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR013"
 			(at 227.33 99.06 0)
 			(effects
 				(font
@@ -5558,7 +5074,7 @@
 		(instances
 			(project "Elantra_Nano"
 				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "#PWR017")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5702,72 +5218,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 24.13 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c905f74-eb81-4987-8c40-5cd072d5874a")
-		(property "Reference" "#PWR01"
-			(at 24.13 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 24.13 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "031cd4dd-07fc-413c-b132-d964f131d291")
-		)
-		(instances
-			(project "Hyundai_Dash_V1"
-				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 26.67 20.32 90)
 		(mirror x)
@@ -5847,7 +5297,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ec0c3d4-1895-492f-b5d8-4dc3d5f0cd4a")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 64.77 128.27 0)
 			(effects
 				(font
@@ -5897,7 +5347,7 @@
 		(instances
 			(project "Elantra_Nano"
 				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5974,15 +5424,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 154.94 52.07 0)
+		(at 137.16 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "48a9a5f6-497d-47db-8c1a-f3a43a2bbd00")
-		(property "Reference" "#PWR08"
-			(at 154.94 55.88 0)
+		(property "Reference" "#PWR07"
+			(at 137.16 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5991,7 +5441,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 154.94 46.99 0)
+			(at 137.16 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5999,7 +5449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 52.07 0)
+			(at 137.16 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6008,7 +5458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 52.07 0)
+			(at 137.16 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6017,7 +5467,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 154.94 52.07 0)
+			(at 137.16 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6031,7 +5481,7 @@
 		(instances
 			(project "Hyundai_Dash_V3"
 				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6046,7 +5496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a3bf967-b834-4f8f-8212-9cb6bcb60ac2")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 67.31 74.93 0)
 			(effects
 				(font
@@ -6096,7 +5546,7 @@
 		(instances
 			(project "Elantra_Nano"
 				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6325,7 +5775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55925d79-a884-47dc-beb7-7d49065efd44")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 125.73 68.58 0)
 			(effects
 				(font
@@ -6375,7 +5825,7 @@
 		(instances
 			(project "Hyundai_Dash_V3"
 				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6530,7 +5980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72ed9035-633f-490f-8ce1-aebf7d6431f4")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR09"
 			(at 193.04 54.61 0)
 			(effects
 				(font
@@ -6580,7 +6030,7 @@
 		(instances
 			(project "Elantra_Nano"
 				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "#PWR013")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6818,7 +6268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82665cb9-e706-4673-bc34-0cfcf3462b4e")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 29.21 31.75 0)
 			(effects
 				(font
@@ -6868,73 +6318,7 @@
 		(instances
 			(project "Elantra_Nano"
 				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 184.15 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82f14725-ace5-4a3a-bd7e-5c504d1b1164")
-		(property "Reference" "#PWR011"
-			(at 184.15 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 184.15 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b4a3909-03ae-431f-b53d-2c22b30aef4b")
-		)
-		(instances
-			(project "Hyundai_Dash_V3"
-				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "#PWR011")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7083,71 +6467,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 176.53 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aa99022f-58db-4797-81d5-711a9fc00a1c")
-		(property "Reference" "#PWR09"
-			(at 176.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 175.514 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "755dd93b-cf82-445a-bc06-91f57e2b43e1")
-		)
-		(instances
-			(project "Kia_Dash_V1"
-				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_Array:ULN2803A")
 		(at 104.14 86.36 90)
 		(unit 1)
@@ -7175,7 +6494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-18_W7.62mm"
 			(at 120.65 85.09 0)
 			(effects
 				(font
@@ -7349,7 +6668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0b35ae9-3d58-44e2-8b8b-82f468a08139")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 62.23 128.27 0)
 			(effects
 				(font
@@ -7399,77 +6718,7 @@
 		(instances
 			(project "Elantra_Nano"
 				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 162.56 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b21e226a-a02e-4158-8864-f16b197fbe9e")
-		(property "Reference" "J7"
-			(at 166.37 98.4249 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B-CAN"
-			(at 166.37 100.9649 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 162.56 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 162.56 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7898d9a2-00d7-4d2c-a782-db6041c67451")
-		)
-		(pin "2"
-			(uuid "3872ab18-f238-4cb6-8270-ec1a388e72fa")
-		)
-		(instances
-			(project "Hyundai_Dash_V3"
-				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "J7")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7503,7 +6752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-18_W7.62mm"
 			(at 222.25 73.66 0)
 			(effects
 				(font
@@ -7819,7 +7068,7 @@
 				)
 			)
 		)
-		(property "Value" "IGN-LSG-RSG-LS1-LS2"
+		(property "Value" "IGN-ILL-SRS-OIL-ALT_L"
 			(at 91.694 20.066 90)
 			(effects
 				(font
@@ -7879,76 +7128,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 179.07 81.28 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d18f3747-49a6-4bff-ae20-dd6bc208bbef")
-		(property "Reference" "J9"
-			(at 180.34 80.6449 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Jumper Holder"
-			(at 180.34 83.1849 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 179.07 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 179.07 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02c50106-2dce-4442-aa0c-abe1641ac295")
-		)
-		(pin "2"
-			(uuid "5f76e80e-59a3-47eb-b900-d80ffc8b3027")
-		)
-		(instances
-			(project "Hyundai_Dash_V3"
-				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 190.5 95.25 0)
 		(unit 1)
@@ -7958,7 +7137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3516b89-7f36-47e4-8c04-3c3a6a0b1193")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR08"
 			(at 190.5 101.6 0)
 			(effects
 				(font
@@ -8008,7 +7187,7 @@
 		(instances
 			(project "Elantra_Nano"
 				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "#PWR012")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8024,7 +7203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddc24bfa-f98b-4090-a497-512e9b3fa455")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 121.92 92.71 0)
 			(effects
 				(font
@@ -8074,7 +7253,7 @@
 		(instances
 			(project "Elantra_Nano"
 				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8090,7 +7269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9d8f3b4-c204-40e0-b876-bc6640f267d3")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR011"
 			(at 223.52 81.28 0)
 			(effects
 				(font
@@ -8140,77 +7319,7 @@
 		(instances
 			(project "Elantra_Nano"
 				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 162.56 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eef89ffd-08f8-44dc-8c24-e5fd376d80a8")
-		(property "Reference" "J6"
-			(at 166.37 83.1849 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B-CAN"
-			(at 166.37 85.7249 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 162.56 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 162.56 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e736eb86-bca1-4043-8752-9cfa4ddf3d04")
-		)
-		(pin "2"
-			(uuid "478247f3-5f00-478d-9921-7ab59e3b3b36")
-		)
-		(instances
-			(project "Hyundai_Dash_V3"
-				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "J6")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8244,7 +7353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 208.28 95.25 0)
 			(effects
 				(font
@@ -8338,7 +7447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f302c045-103f-4c73-aa25-efb1be6ef679")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR012"
 			(at 224.79 109.22 0)
 			(effects
 				(font
@@ -8388,89 +7497,7 @@
 		(instances
 			(project "Elantra_Nano"
 				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x07_Pin")
-		(at 165.1 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff517552-0b74-4c42-bb54-863200b1f832")
-		(property "Reference" "J8"
-			(at 165.735 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B-CAN SPI"
-			(at 164.592 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical"
-			(at 165.1 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 165.1 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bbfbd6d8-95a3-4337-8192-9150e4f021fa")
-		)
-		(pin "6"
-			(uuid "bed8d2b3-43af-4496-881a-207292676d1f")
-		)
-		(pin "1"
-			(uuid "2b803f81-ce42-4fc0-83d9-7119156e3b2b")
-		)
-		(pin "3"
-			(uuid "6f3c448a-f1ad-45d2-9f9b-192a6d2547d9")
-		)
-		(pin "4"
-			(uuid "43113fe8-b2d4-4008-8a86-2f1763bce6c6")
-		)
-		(pin "5"
-			(uuid "515cf861-9244-485a-b873-f07913008e13")
-		)
-		(pin "7"
-			(uuid "fbcfee50-f34d-45b1-b168-960163c73c8f")
-		)
-		(instances
-			(project "Hyundai_Dash_V3"
-				(path "/37058ee5-1984-4ba0-87f5-ec991eadee3c"
-					(reference "J8")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
