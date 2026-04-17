@@ -1364,8 +1364,9 @@
 			)
 		)
 		(property "Value" "ULN2803A"
-			(at 3.81 22.65 0)
-			(layer "F.Fab")
+			(at 3.805 10.16 270)
+			(unlocked yes)
+			(layer "F.SilkS")
 			(uuid "ec5bcd1e-b0e1-4bc5-8b04-1ec87ce759ff")
 			(effects
 				(font
@@ -2451,8 +2452,8 @@
 			)
 		)
 		(property "Value" "ULN2803A"
-			(at 3.81 22.65 90)
-			(layer "F.Fab")
+			(at 3.805 10.16 180)
+			(layer "F.SilkS")
 			(uuid "8e56fb23-36d3-4ba4-a1df-865b670a16ff")
 			(effects
 				(font
@@ -5627,8 +5628,8 @@
 			)
 		)
 		(property "Value" "74HC595"
-			(at 3.81 20.11 180)
-			(layer "F.Fab")
+			(at 3.805 8.89 270)
+			(layer "F.SilkS")
 			(uuid "e7e85716-8636-4473-a348-b361b40fde74")
 			(effects
 				(font
@@ -11900,7 +11901,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Soul PS Dash V1.0"
+	(gr_text "Soul PS Dash V1.1"
 		(locked yes)
 		(at 175.25 98.25 0)
 		(layer "F.SilkS")
