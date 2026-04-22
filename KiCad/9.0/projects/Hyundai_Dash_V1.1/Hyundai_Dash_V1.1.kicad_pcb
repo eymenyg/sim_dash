@@ -134,8 +134,8 @@
 	(net 54 "Net-(U2-I3)")
 	(net 55 "Net-(U2-I4)")
 	(net 56 "Net-(U2-I1)")
-	(net 57 "unconnected-(U3-QH&apos;-Pad9)")
-	(net 58 "Net-(J10-Pin_2)")
+	(net 57 "Net-(J9-Pin_2)")
+	(net 58 "unconnected-(U3-QH'-Pad9)")
 	(net 59 "unconnected-(U1-O6-Pad13)")
 	(net 60 "unconnected-(U1-I6-Pad6)")
 	(net 61 "Net-(A1-A4)")
@@ -202,7 +202,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5107330f-0e3c-491a-9bd4-64788e9fb835")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.33 1.27)
@@ -456,7 +456,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9f71a3d8-5dd5-44ec-bb23-9f47e845f427")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -656,7 +656,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b21e226a-a02e-4158-8864-f16b197fbe9e")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -2.85 -2.75)
@@ -1101,7 +1101,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1abcb276-e5bb-4b71-bd74-66a41c2a01d8")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -1228,7 +1228,7 @@
 			(size 1.225 3.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.204082)
-			(net 58 "Net-(J10-Pin_2)")
+			(net 57 "Net-(J9-Pin_2)")
 			(pintype "passive")
 			(uuid "e76dd2ef-3ca9-4719-b37c-7d4df64de87d")
 		)
@@ -1301,7 +1301,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6c08d9ee-d84c-4d34-a5f0-87c2e01912ce")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -1501,7 +1501,7 @@
 		(property ki_fp_filters "TO?220*")
 		(path "/afd52b1c-b304-4751-83a6-517cd78bfbe0")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 7.65 -3.26)
@@ -1738,7 +1738,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b5417910-d269-4f99-ba5d-8a1ce747b9f8")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -1865,7 +1865,7 @@
 			(size 1.225 3.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.204082)
-			(net 58 "Net-(J10-Pin_2)")
+			(net 57 "Net-(J9-Pin_2)")
 			(pintype "passive")
 			(uuid "9f4f45e0-f70a-422d-9207-f6e11a3bc765")
 		)
@@ -1938,7 +1938,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/eef89ffd-08f8-44dc-8c24-e5fd376d80a8")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.33 1.27)
@@ -2192,7 +2192,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/bfbdf588-5fa0-43b4-ade9-f34f15f9db83")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -2319,7 +2319,7 @@
 			(size 1.225 3.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.204082)
-			(net 58 "Net-(J10-Pin_2)")
+			(net 57 "Net-(J9-Pin_2)")
 			(pintype "passive")
 			(uuid "5ff64bd8-2066-4a3d-a703-583b32607c6e")
 		)
@@ -2392,7 +2392,7 @@
 		(property ki_fp_filters "DIP*W7.62mm* SOIC*7.5x11.6mm*P1.27mm*")
 		(path "/b516a364-ef8e-43de-a6d0-02151a5de6d6")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 1.16 -1.33)
@@ -2817,7 +2817,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5f5fdc8f-8d03-4a95-82ca-7fc1e56c6011")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -2944,7 +2944,7 @@
 			(size 1.225 3.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.204082)
-			(net 58 "Net-(J10-Pin_2)")
+			(net 57 "Net-(J9-Pin_2)")
 			(pintype "passive")
 			(uuid "27c0b9f1-8586-4361-a67d-4f60246f6a31")
 		)
@@ -2968,7 +2968,7 @@
 		(at 187.5 55)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
-		(property "Reference" "J10"
+		(property "Reference" "J9"
 			(at 1.25 -3.55 0)
 			(layer "F.SilkS")
 			(uuid "91767147-9823-4f8f-afc1-8aca65ed9373")
@@ -3017,7 +3017,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2d5758af-097c-4be6-8602-0c9c8f50291c")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -2.85 -2.75)
@@ -3388,7 +3388,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 58 "Net-(J10-Pin_2)")
+			(net 57 "Net-(J9-Pin_2)")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "d375abb3-f6cd-4328-bf0a-a78fc69b3660")
@@ -3462,7 +3462,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3db52628-1f36-4568-afe9-40291df28df1")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -2.85 -2.75)
@@ -3907,7 +3907,7 @@
 		(property ki_fp_filters "DIP*W7.62mm* SOIC*7.5x11.6mm*P1.27mm*")
 		(path "/ad53e8eb-427b-495b-aa62-edf106b6a7f9")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 6.46 -1.33)
@@ -4332,7 +4332,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4dadbd06-5ae2-4af5-b100-dd4b9429b216")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -4459,7 +4459,7 @@
 			(size 1.225 3.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.204082)
-			(net 58 "Net-(J10-Pin_2)")
+			(net 57 "Net-(J9-Pin_2)")
 			(pintype "passive")
 			(uuid "0ce4a5c9-69e6-4b55-a765-45b4d17645d3")
 		)
@@ -4534,7 +4534,7 @@
 		(property ki_fp_filters "Arduino*Nano*")
 		(path "/7d2368ea-a4d2-4773-9a2e-b3b3abcdebb2")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 3.68 42.04)
@@ -5268,7 +5268,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ff517552-0b74-4c42-bb54-863200b1f832")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.33 1.27)
@@ -5577,7 +5577,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/43a057ae-66b8-46d8-b426-c52d7fa611da")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -5704,7 +5704,7 @@
 			(size 1.225 3.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.204082)
-			(net 58 "Net-(J10-Pin_2)")
+			(net 57 "Net-(J9-Pin_2)")
 			(pintype "passive")
 			(uuid "3d0ebd7c-ef18-4309-9bf8-b3316d8b1c07")
 		)
@@ -5777,7 +5777,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1d25f80d-9de0-4de2-851d-e4ca85e27ba8")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -2.85 -2.75)
@@ -6224,7 +6224,7 @@
 		(property ki_fp_filters "TO?92*")
 		(path "/9f8dbc19-e1d3-4250-850c-e48f989c92d9")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.53 1.85)
@@ -6443,7 +6443,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/137b2066-d869-4dcf-8058-347d9f973513")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.33 1.27)
@@ -6714,7 +6714,7 @@
 				)
 			)
 		)
-		(property "Value" "IGN-LSG-RSG-LS1-LS2"
+		(property "Value" "IGN-HS1-HS2-LS1-LS2"
 			(at 5 4.6 0)
 			(layer "F.SilkS")
 			(uuid "94776f28-1f79-43b0-86a9-b7c7812edba2")
@@ -6752,7 +6752,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c67324ff-bf54-4e47-be05-1a4c3f7cd680")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -7230,7 +7230,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/bad2de41-8def-45ed-8d55-6457c1890571")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -7357,7 +7357,7 @@
 			(size 1.225 3.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.204082)
-			(net 58 "Net-(J10-Pin_2)")
+			(net 57 "Net-(J9-Pin_2)")
 			(pintype "passive")
 			(uuid "355800bb-d38b-4357-a6f8-2477ce808dc4")
 		)
@@ -7433,7 +7433,7 @@
 		(property ki_fp_filters "TO?92*")
 		(path "/4fdc4fa3-3ba5-4df3-945f-047284b894ed")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.53 1.85)
@@ -7654,7 +7654,7 @@
 		(property ki_fp_filters "*Buzzer*")
 		(path "/2a34c057-1ac4-4cf0-bbf4-fb4103e7e3be")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_circle
 			(center 3.8 0)
@@ -7824,7 +7824,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/32b5e506-9b01-4153-a01e-2d8364a03115")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -7951,7 +7951,7 @@
 			(size 1.225 3.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.204082)
-			(net 58 "Net-(J10-Pin_2)")
+			(net 57 "Net-(J9-Pin_2)")
 			(pintype "passive")
 			(uuid "29e13e98-52d2-48d8-80eb-652935286e61")
 		)
@@ -8024,7 +8024,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/32ce2ce5-00eb-48f6-8758-1e93b38281e1")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -8225,7 +8225,7 @@
 		(property ki_fp_filters "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* SOIC*5.3x10.2mm*P1.27mm* SOIC*7.5x10.3mm*P1.27mm*")
 		(path "/f179dfef-39da-4993-b8ca-797ec826ab22")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 6.46 19.11)
@@ -8477,7 +8477,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 57 "unconnected-(U3-QH&apos;-Pad9)")
+			(net 58 "unconnected-(U3-QH'-Pad9)")
 			(pinfunction "QH'")
 			(pintype "output+no_connect")
 			(uuid "6d77bf8c-9f4d-45cb-a490-a7c53f2936c7")
@@ -8628,7 +8628,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7788088c-a81b-4e45-8047-6cb7b9435b93")
 		(sheetname "/")
-		(sheetfile "Hyundai_Dash_V1.kicad_sch")
+		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -16196,7 +16196,7 @@
 		(width 0.4)
 		(locked yes)
 		(layer "F.Cu")
-		(net 58)
+		(net 57)
 		(uuid "112ff571-e7f2-410c-af39-98586f17013f")
 	)
 	(segment
@@ -16205,7 +16205,7 @@
 		(width 0.4)
 		(locked yes)
 		(layer "F.Cu")
-		(net 58)
+		(net 57)
 		(uuid "311bfee9-bd42-408e-9c97-ba23a9bb75c3")
 	)
 	(segment
@@ -16214,7 +16214,7 @@
 		(width 0.4)
 		(locked yes)
 		(layer "F.Cu")
-		(net 58)
+		(net 57)
 		(uuid "33cb7138-8159-47b6-bbf7-ebc56ddcc765")
 	)
 	(segment
@@ -16223,7 +16223,7 @@
 		(width 0.4)
 		(locked yes)
 		(layer "F.Cu")
-		(net 58)
+		(net 57)
 		(uuid "3bdbcd68-1b64-4a73-b44d-99ab0d7cd223")
 	)
 	(segment
@@ -16232,7 +16232,7 @@
 		(width 0.4)
 		(locked yes)
 		(layer "F.Cu")
-		(net 58)
+		(net 57)
 		(uuid "4447c692-43d5-415f-aead-fab9ea13bb81")
 	)
 	(segment
@@ -16241,7 +16241,7 @@
 		(width 0.4)
 		(locked yes)
 		(layer "F.Cu")
-		(net 58)
+		(net 57)
 		(uuid "4bab4397-890a-4b5b-9cc9-55e2158da2c0")
 	)
 	(segment
@@ -16250,7 +16250,7 @@
 		(width 0.4)
 		(locked yes)
 		(layer "F.Cu")
-		(net 58)
+		(net 57)
 		(uuid "8b972392-d45c-4a9d-a7fe-30c10a6c0f5e")
 	)
 	(segment
@@ -16259,7 +16259,7 @@
 		(width 0.4)
 		(locked yes)
 		(layer "F.Cu")
-		(net 58)
+		(net 57)
 		(uuid "8d4bc4be-a26a-45dd-a5f8-db42c7b3ca4d")
 	)
 	(segment
@@ -16268,7 +16268,7 @@
 		(width 0.4)
 		(locked yes)
 		(layer "F.Cu")
-		(net 58)
+		(net 57)
 		(uuid "b8e700a3-2c7f-4746-848a-5fdc5219952e")
 	)
 	(segment
@@ -16277,7 +16277,7 @@
 		(width 0.4)
 		(locked yes)
 		(layer "F.Cu")
-		(net 58)
+		(net 57)
 		(uuid "c5d9a07f-dcd0-45bf-84da-38cbfc21771c")
 	)
 	(segment
@@ -16286,7 +16286,7 @@
 		(width 0.2)
 		(locked yes)
 		(layer "F.Cu")
-		(net 58)
+		(net 57)
 		(uuid "d633fef8-a85c-4bca-ad2e-3de301c4f40e")
 	)
 	(segment
