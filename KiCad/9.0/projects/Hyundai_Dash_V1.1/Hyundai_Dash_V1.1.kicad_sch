@@ -3602,7 +3602,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "LS: Low-Side Switch"
+	(text "HS: High-Side Switch\nLS: Low-Side Switch"
 		(exclude_from_sim no)
 		(at 72.644 19.304 0)
 		(effects
@@ -7819,7 +7819,7 @@
 				)
 			)
 		)
-		(property "Value" "IGN-LSG-RSG-LS1-LS2"
+		(property "Value" "IGN-HS1-HS2-LS1-LS2"
 			(at 91.694 20.066 90)
 			(effects
 				(font
