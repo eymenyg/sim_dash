@@ -2336,13 +2336,13 @@
 			)
 		)
 	)
-	(footprint "Package_DIP:DIP-18_W7.62mm_Socket"
+	(footprint "Package_DIP:DIP-18_W7.62mm"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "3d13bddf-dc61-4b2f-955a-a773a135659a")
 		(at 205.501824 61.419772)
-		(descr "18-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket")
-		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
+		(descr "18-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
+		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U2"
 			(at 3.81 -2.33 0)
 			(layer "F.SilkS")
@@ -2355,7 +2355,7 @@
 			)
 		)
 		(property "Value" "ULN2803A"
-			(at 3.81 -3.72 0)
+			(at 3.748176 -3.919772 0)
 			(layer "F.SilkS")
 			(uuid "1b32875d-5f68-45e5-9333-85bee6cdf4c7")
 			(effects
@@ -2365,7 +2365,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2803a.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2377,7 +2377,7 @@
 				)
 			)
 		)
-		(property "Description" "Darlington Transistor Arrays, SOIC18/DIP18"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2393,7 +2393,7 @@
 		(path "/b516a364-ef8e-43de-a6d0-02151a5de6d6")
 		(sheetname "/")
 		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 1.16 -1.33)
 			(end 1.16 21.65)
@@ -2402,7 +2402,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c090d62f-5f7f-4366-81d0-82be910ec4ba")
+			(uuid "bd025ebd-4ba9-4f8e-97ea-189407ef314b")
 		)
 		(fp_line
 			(start 1.16 21.65)
@@ -2412,7 +2412,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8d5b259e-5a86-4743-9c61-f2339d06500b")
+			(uuid "a1105f91-2f65-49a8-af1e-3eb5f8e99490")
 		)
 		(fp_line
 			(start 2.81 -1.33)
@@ -2422,7 +2422,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5b638fce-d2e5-4f1e-93a4-a3be327469a4")
+			(uuid "d0006356-7d7c-4117-b348-3b250f6fc8ce")
 		)
 		(fp_line
 			(start 6.46 -1.33)
@@ -2432,7 +2432,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "987f9c3a-bdb3-457a-8607-e02bdd18acf8")
+			(uuid "b2c76af7-0201-45a2-ab67-39a4a705dc70")
 		)
 		(fp_line
 			(start 6.46 21.65)
@@ -2442,18 +2442,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f18469a6-c21d-48b3-8e7d-23b4439df951")
-		)
-		(fp_rect
-			(start -1.33 -1.39)
-			(end 8.95 21.71)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "9b1d2c5e-46d0-400e-9a46-808d3e29ff66")
+			(uuid "48d88142-8a26-48cc-b61c-a0dc46651117")
 		)
 		(fp_arc
 			(start 4.81 -1.33)
@@ -2464,18 +2453,18 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ed51fe16-7733-406a-a7fd-e9adb3de5312")
+			(uuid "0a2e9bc7-cf75-4c05-8637-020d9d0980fc")
 		)
 		(fp_rect
-			(start -1.52 -1.58)
-			(end 9.14 21.9)
+			(start -1.06 -1.52)
+			(end 8.67 21.84)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "7bcf84a7-6759-45ac-9053-0a3f26a95324")
+			(uuid "396d8fd7-9ce3-4e95-b9a4-42e263da60ad")
 		)
 		(fp_line
 			(start 0.635 -0.27)
@@ -2485,7 +2474,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "175c0f93-5b4f-4e55-b727-053903398bab")
+			(uuid "73a3594c-5694-4969-a8d3-0a7862c81e3b")
 		)
 		(fp_line
 			(start 0.635 21.59)
@@ -2495,7 +2484,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e665d0ac-9c83-483e-a019-f41251fc1e73")
+			(uuid "826b1082-e1e1-478a-9553-cd6f76df337d")
 		)
 		(fp_line
 			(start 1.635 -1.27)
@@ -2505,7 +2494,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4968fad3-1190-48e7-8b6f-812ebc6926a4")
+			(uuid "510fa28f-de2c-4ed4-80e4-f77a5ef70677")
 		)
 		(fp_line
 			(start 6.985 -1.27)
@@ -2515,7 +2504,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0cc699e2-169b-4ca3-be77-20eb6ce9e3bc")
+			(uuid "36b9e1e6-d4a1-4d2d-9678-3a66466abbae")
 		)
 		(fp_line
 			(start 6.985 21.59)
@@ -2525,18 +2514,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fabf0478-f5d4-4799-aabc-8ecf14983f5b")
-		)
-		(fp_rect
-			(start -1.27 -1.33)
-			(end 8.89 21.65)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "623b4c8e-9fae-4da5-a5ce-9e53e0827d01")
+			(uuid "d379e66b-0428-43e1-abef-87484e5f0754")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 3.81 10.16 90)
@@ -2749,7 +2727,7 @@
 			(uuid "e1a6816d-a71c-4cac-9231-49dc7cbeb083")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-18_W7.62mm_Socket.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-18_W7.62mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3851,13 +3829,13 @@
 			)
 		)
 	)
-	(footprint "Package_DIP:DIP-18_W7.62mm_Socket"
+	(footprint "Package_DIP:DIP-18_W7.62mm"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "855608e0-f0e6-4d68-8ee6-33061f1d4042")
 		(at 169.26 81.62 90)
-		(descr "18-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket")
-		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
+		(descr "18-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
+		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U1"
 			(at 3.81 -2.33 90)
 			(layer "F.SilkS")
@@ -3870,7 +3848,7 @@
 			)
 		)
 		(property "Value" "ULN2803A"
-			(at 10.12 3.24 180)
+			(at 9.62 2.49 180)
 			(layer "F.SilkS")
 			(uuid "553b5d55-2d29-42cf-9241-228f71cd518f")
 			(effects
@@ -3880,7 +3858,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2803a.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3892,7 +3870,7 @@
 				)
 			)
 		)
-		(property "Description" "Darlington Transistor Arrays, SOIC18/DIP18"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3908,7 +3886,7 @@
 		(path "/ad53e8eb-427b-495b-aa62-edf106b6a7f9")
 		(sheetname "/")
 		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 6.46 -1.33)
 			(end 4.81 -1.33)
@@ -3917,7 +3895,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "46d787b4-e2dc-4bd6-8bf6-1fda25e0c193")
+			(uuid "aff769cd-2f21-4357-8027-6d281c6055e6")
 		)
 		(fp_line
 			(start 2.81 -1.33)
@@ -3927,7 +3905,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f9bc6f66-215b-452e-9577-6e183cb95707")
+			(uuid "44b1d074-8093-4e0e-a3ba-3e304b37e892")
 		)
 		(fp_line
 			(start 1.16 -1.33)
@@ -3937,7 +3915,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8278b828-28b5-4522-84a9-33a08e0235b0")
+			(uuid "e0ff5b42-3c0f-402b-84e2-873b344c69ec")
 		)
 		(fp_line
 			(start 6.46 21.65)
@@ -3947,7 +3925,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4395b256-2cfe-4665-888e-16095c5b7dc8")
+			(uuid "939d1e8b-64ae-4af5-a836-cf630b40a0e6")
 		)
 		(fp_line
 			(start 1.16 21.65)
@@ -3957,18 +3935,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8d12f1bc-e267-4b83-bb26-a1832cd9f7ac")
-		)
-		(fp_rect
-			(start -1.33 -1.39)
-			(end 8.95 21.71)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "50bae567-630e-46bc-8720-6d68b0608a2a")
+			(uuid "376f4f8f-7a4d-4152-9fb9-45dc3a6e249d")
 		)
 		(fp_arc
 			(start 4.81 -1.33)
@@ -3979,18 +3946,18 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a6c15ee2-1148-49e7-a691-5cc6730beb3f")
+			(uuid "a6aa9a39-a88e-4af1-bafb-5e466736d4b4")
 		)
 		(fp_rect
-			(start -1.52 -1.58)
-			(end 9.14 21.9)
+			(start -1.06 -1.52)
+			(end 8.67 21.84)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "8f4f534e-3909-4f55-9577-3e082606dcb0")
+			(uuid "1d7155af-1416-4319-a4be-086de7f141d5")
 		)
 		(fp_line
 			(start 6.985 -1.27)
@@ -4000,7 +3967,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0b64ae70-b366-45da-886e-2faa1e228221")
+			(uuid "eec4b122-1bf1-4854-8de6-65e5f359fcef")
 		)
 		(fp_line
 			(start 1.635 -1.27)
@@ -4010,7 +3977,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "661fa533-19b5-4691-a492-0d11ef1ced1f")
+			(uuid "ad378491-3c73-47d4-b047-ea0649d1f106")
 		)
 		(fp_line
 			(start 0.635 -0.27)
@@ -4020,7 +3987,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c2b111db-f29a-4b4a-a47b-656ff554370d")
+			(uuid "3578c95e-9338-4179-9319-a58e400b1f4e")
 		)
 		(fp_line
 			(start 6.985 21.59)
@@ -4030,7 +3997,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6c8d9c23-c657-4546-a9d0-26977fe0ae30")
+			(uuid "3fa21de7-ba74-403e-b3a1-1e4323b887e4")
 		)
 		(fp_line
 			(start 0.635 21.59)
@@ -4040,21 +4007,10 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1877da1e-5c01-4e2d-ba2f-8079f1b53432")
-		)
-		(fp_rect
-			(start -1.27 -1.33)
-			(end 8.89 21.65)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "5bcde1a2-c1e5-44e6-85db-ea6a065bc79e")
+			(uuid "a93c3884-2d5f-4be9-bdb2-69559bd85af6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 10.16 0)
+			(at 3.81 10.16 180)
 			(layer "F.Fab")
 			(uuid "b1224e91-7623-46b9-b956-0fdf2cb15421")
 			(effects
@@ -4264,7 +4220,7 @@
 			(uuid "6ab0391a-d0e9-4dd0-a06f-1ee91a216907")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-18_W7.62mm_Socket.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-18_W7.62mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8168,16 +8124,15 @@
 			)
 		)
 	)
-	(footprint "Package_DIP:DIP-16_W7.62mm_Socket"
+	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "e661a054-c58d-4819-87fd-d31acb1e81b0")
 		(at 202 79.2 180)
-		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket")
-		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
+		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
+		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U3"
-			(at 3.81 20.110228 0)
-			(unlocked yes)
+			(at 3.75 20.2 180)
 			(layer "F.SilkS")
 			(uuid "ec837027-c48e-4b03-904a-f0e0404dc5b0")
 			(effects
@@ -8188,7 +8143,7 @@
 			)
 		)
 		(property "Value" "74HC595"
-			(at 3.81 21.500228 180)
+			(at 3.75 21.7 180)
 			(layer "F.SilkS")
 			(uuid "a5131b72-d416-4bff-a506-168c410aa263")
 			(effects
@@ -8198,8 +8153,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
-			(at 0 0 0)
+		(property "Datasheet" ""
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a2bb58f8-dd9e-4a32-b573-2c9221d58156")
@@ -8210,8 +8165,8 @@
 				)
 			)
 		)
-		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8ceba002-e620-47f2-84c2-c7f2a7a997c0")
@@ -8226,7 +8181,7 @@
 		(path "/f179dfef-39da-4993-b8ca-797ec826ab22")
 		(sheetname "/")
 		(sheetfile "Hyundai_Dash_V1.1.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 6.46 19.11)
 			(end 6.46 -1.33)
@@ -8235,7 +8190,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f420674f-3e40-4811-9c7a-f41c19d2359a")
+			(uuid "2f530055-2ad1-4ad4-b0ed-c0031e3dc1e5")
 		)
 		(fp_line
 			(start 6.46 -1.33)
@@ -8245,7 +8200,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8dace2b4-c837-46c5-aa59-0c93117aa2e5")
+			(uuid "8af4eaac-20ea-4274-ab35-97488c22ba51")
 		)
 		(fp_line
 			(start 2.81 -1.33)
@@ -8255,7 +8210,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d173115d-8f3b-457f-97ee-640ef3bbcc3b")
+			(uuid "3295d103-3013-4eaa-bfbf-03e0a37e80fa")
 		)
 		(fp_line
 			(start 1.16 19.11)
@@ -8265,7 +8220,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5903a418-c392-4523-8992-7672e5d77464")
+			(uuid "6209745a-3d7a-4feb-a645-d77981604560")
 		)
 		(fp_line
 			(start 1.16 -1.33)
@@ -8275,18 +8230,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7eed72da-c9ac-453f-96a8-692bf8830d39")
-		)
-		(fp_rect
-			(start -1.33 -1.39)
-			(end 8.95 19.17)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "f57f913a-eec9-44e3-84d2-feb5d62e4147")
+			(uuid "1e2ef62c-b3d2-4439-b0fc-24a103af6ed2")
 		)
 		(fp_arc
 			(start 4.81 -1.33)
@@ -8297,18 +8241,18 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bbfda7bf-ff9b-41af-a254-28777ecb86cd")
+			(uuid "aba4e566-446a-4d6b-8ae9-baa440eaa03b")
 		)
 		(fp_rect
-			(start -1.52 -1.58)
-			(end 9.14 19.36)
+			(start -1.06 -1.52)
+			(end 8.67 19.3)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "d73187db-fec5-4bf5-8dcd-aeeda49c5801")
+			(uuid "0314f7fe-c0da-4263-a0b9-87e9c37f64a9")
 		)
 		(fp_line
 			(start 6.985 19.05)
@@ -8318,7 +8262,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "74be83f5-5ded-4977-82e7-4fd705f03e71")
+			(uuid "3e562b1d-f356-469f-a9fd-f095b93f33a3")
 		)
 		(fp_line
 			(start 6.985 -1.27)
@@ -8328,7 +8272,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0baa1c68-0508-4fc8-bb8d-665daf31e6b8")
+			(uuid "76275f5a-b548-4eef-a2f0-eb1cb4da8055")
 		)
 		(fp_line
 			(start 1.635 -1.27)
@@ -8338,7 +8282,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "03205801-c0e3-4508-ac11-b3504b932f1d")
+			(uuid "2ef0f6c3-7d7c-4d2d-9139-3183ae0526ad")
 		)
 		(fp_line
 			(start 0.635 19.05)
@@ -8348,7 +8292,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c44cd6fb-e70b-415b-b5a0-29dbcc5f1245")
+			(uuid "b39f4392-e6b2-4398-875e-e87447cbf712")
 		)
 		(fp_line
 			(start 0.635 -0.27)
@@ -8358,21 +8302,10 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "086462db-99c2-465d-8327-75a18aa93b96")
-		)
-		(fp_rect
-			(start -1.27 -1.33)
-			(end 8.89 19.11)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "463ea1f6-c446-41a5-858e-4c0493eeb8de")
+			(uuid "eb2a7004-e228-4a30-a2a6-86999dc7e3d6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 8.89 90)
+			(at 3.81 8.89 270)
 			(layer "F.Fab")
 			(uuid "61089329-79e1-4677-ae97-62aea870f92d")
 			(effects
@@ -8560,7 +8493,7 @@
 			(uuid "a00121b6-8232-4cf4-9f40-b9e3704cf97c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
