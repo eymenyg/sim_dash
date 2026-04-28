@@ -1,4 +1,4 @@
-// 2011-2013 Hyundai Elantra (MD)
+// 2011-2013 Hyundai Elantra (MD), Korean-built VIN:KMHDH, P/N: 94001-3X275
 
 #include <HyundaiDashV1.h>
 

@@ -1,4 +1,4 @@
-// 2011-2014 Hyundai Sonata (YF)
+// 2011-2014 Hyundai Sonata (YF), US-built VIN: 5NPEB, P/N: 94001-3Q014
 
 #include <HyundaiDashV1.h>
 

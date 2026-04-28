@@ -1,4 +1,4 @@
-// 2014-2015 Kia Optima (TF F/L)
+// 2014-2015 Kia Optima (TF F/L), US-built VIN: 5XXGM, P/N: 94031-2T270
 
 #include <HyundaiDashV1.h>
 

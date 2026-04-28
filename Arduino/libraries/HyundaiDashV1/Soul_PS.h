@@ -1,4 +1,4 @@
-// 2014-2016 Kia Soul (PS)
+// 2014-2016 Kia Soul (PS), Korean-built VIN:KNDJP, P/N: 94006-B2600
 
 #include <HyundaiDashV1.h>
 
