@@ -1,4 +1,6 @@
-#pragma once
+#ifndef HYUNDAI_DASH_V1_H
+#define HYUNDAI_DASH_V1_H
+
 #include <mcp_can.h>
 
 struct Telemetry {
@@ -251,3 +253,4 @@ private:
 	// Serial buffer
     bool newData = false;
 };
+#endif
