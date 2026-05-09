@@ -19,6 +19,6 @@ HyundaiDashV1 cluster(
     0x350, 3, 131, //77*F
     // turnSignalID, turnSignalIndex, turnSignalLeftValue, turnSignalRightValue
     0x18, 5, 64, 32,
-    //hasBodyCAN, enableTurnSignalSound, maxSpeed
-    false, false, 256
+    //hasBodyCAN, enableTurnSignalSound, maxSpeed, needleSweep
+    false, false, 256, false
 );

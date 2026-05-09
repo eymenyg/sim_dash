@@ -38,7 +38,8 @@ HyundaiDashV1::HyundaiDashV1(
 		bool hasBodyCAN,
 		bool enableTurnSignalSound,
 		
-		uint16_t maxSpeed
+		uint16_t maxSpeed,
+		bool needleSweep
     )
 		: C_CAN(C_CANPin),
 		  B_CAN(B_CANPin),
@@ -80,7 +81,8 @@ HyundaiDashV1::HyundaiDashV1(
 		  hasBodyCAN(hasBodyCAN),
 		  enableTurnSignalSound(enableTurnSignalSound),
 		  
-		  maxSpeed(maxSpeed)
+		  maxSpeed(maxSpeed),
+		  needleSweep(needleSweep)
 	{		
 		// Setup pin modes
 		pinMode(dataPin, OUTPUT);
@@ -105,6 +107,7 @@ void HyundaiDashV1::run() {
     receiveSerialData();
     updateFuel();
     updateOutputs();
+    tickNeedleSweep();
     updateSpeedAndRPM();
     gearSelector();
     updateCoolant();
@@ -119,6 +122,48 @@ void HyundaiDashV1::beginCAN() {
         B_CAN.setMode(MCP_NORMAL);
     }
 }    
+
+void HyundaiDashV1::tickNeedleSweep() {
+    if (!needleSweep) return;
+
+    unsigned long now = millis();
+
+    switch (sweepState) {
+        case SweepState::IDLE:
+            // Transition is triggered from applyTelemetry on ignition rising edge
+            break;
+
+        case SweepState::ZERO:
+            // Hold needles at zero for sweepInterval ms
+            speedData[speedDataIndex] = 0;
+            rpmData[rpmDataIndex]     = 0;
+            if (now - sweepTimer >= sweepInterval) {
+                sweepState = SweepState::MAX;
+                sweepTimer = now;
+            }
+            break;
+
+        case SweepState::MAX:
+            // Drive needles to full scale for sweepInterval ms
+            speedData[speedDataIndex] = 254;
+            rpmData[rpmDataIndex]     = 127;
+            if (now - sweepTimer >= sweepInterval) {
+                sweepState = SweepState::RETURN;
+                sweepTimer = now;
+            }
+            break;
+
+        case SweepState::RETURN:
+            // Return needles to zero for sweepInterval ms, then hand back to live data
+            speedData[speedDataIndex] = 0;
+            rpmData[rpmDataIndex]     = 0;
+            if (now - sweepTimer >= sweepInterval) {
+                sweepState = SweepState::IDLE;
+                // updateSpeedAndRPM() reclaims the buffers from the next tick onward
+            }
+            break;
+    }
+}
 
 const uint8_t HyundaiDashV1::ectValues[12] = {
     0x00,0x8F,0x94,0x99,0x9E,0xD4,
@@ -224,7 +269,10 @@ void HyundaiDashV1::updateOutputs() {
 	turnSignalSound(lSignal || rSignal);
 }
 
-void HyundaiDashV1::updateSpeedAndRPM() {  
+void HyundaiDashV1::updateSpeedAndRPM() {
+    // During a needle sweep the buffers are owned by tickNeedleSweep()
+    if (sweepState != SweepState::IDLE) return;
+
     speedData[speedDataIndex] = map(speedKMH, 0, maxSpeed, 0, 254);
     rpmData[rpmDataIndex]     = isICE 
                             ? map(rpm, 0, maxRPM, 0, 127)
@@ -405,7 +453,16 @@ void HyundaiDashV1::resetCANLightBuffers() {
 }
 
 void HyundaiDashV1::applyTelemetry(const Telemetry& t) {
-    ignitionState = t.ignitionState;
+    uint8_t newIgnition = t.ignitionState;
+
+    // Trigger needle sweep on ignition rising edge (0/1 -> 2/3)
+    if (needleSweep && previousIgnitionState < 2 && newIgnition >= 2) {
+        sweepState = SweepState::ZERO;
+        sweepTimer = millis();
+    }
+    previousIgnitionState = newIgnition;
+
+    ignitionState = newIgnition;
     speedKMH      = t.speedKMH; if(speedKMH > maxSpeed) speedKMH = maxSpeed;
     rpm           = t.rpm; if(rpm < 0) rpm = 0; if(rpm > maxRPM) rpm = maxRPM;
     gear          = t.gear;

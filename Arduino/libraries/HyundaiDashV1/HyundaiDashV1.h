@@ -74,7 +74,8 @@ public:
 		bool hasBodyCAN,
 		bool enableTurnSignalSound,
 		
-		uint16_t maxSpeed
+		uint16_t maxSpeed,
+		bool needleSweep
     );
     
     void run();
@@ -87,6 +88,7 @@ private:
     void turnSignalSound(bool);
     void updateOutputs();
     void updateSpeedAndRPM();
+    void tickNeedleSweep();
     void gearSelector();
     void updateCoolant();
     void updateBrakes();
@@ -201,6 +203,20 @@ private:
 	
 	const bool enableTurnSignalSound;
 	int previousSignal = 0;
+	
+	// --- Needle sweep ---
+	const bool needleSweep;
+
+	enum class SweepState : uint8_t {
+		IDLE,
+		ZERO,      // outputs zeroed, wait for sweepInterval
+		MAX,       // outputs at max, wait for sweepInterval
+		RETURN     // outputs zeroed again, wait for sweepInterval before handing back
+	};
+	SweepState sweepState       = SweepState::IDLE;
+	unsigned long sweepTimer    = 0;
+	static constexpr unsigned long sweepInterval = 850; // ms per phase
+	uint8_t previousIgnitionState = 0;
 	
 	// --- Incoming active light bits ---
 	enum DashLight : uint16_t {
