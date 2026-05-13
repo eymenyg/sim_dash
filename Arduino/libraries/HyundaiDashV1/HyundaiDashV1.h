@@ -70,6 +70,8 @@ public:
         uint8_t turnSignalIndex,
         uint8_t turnSignalLeftValue,
         uint8_t turnSignalRightValue,
+        
+        const uint8_t calibEctValues[12],
 		
 		bool hasBodyCAN,
 		bool enableTurnSignalSound,
@@ -137,8 +139,6 @@ private:
     
     static constexpr uint8_t cruiseDataValue = 0x02;
 
-    static const uint8_t ectValues[12];
-
     // --- Pins ---
     static constexpr uint8_t dataPin = 3;
     static constexpr uint8_t latchPin = 4;
@@ -195,6 +195,8 @@ private:
     const uint8_t turnSignalIndex;
     const uint8_t turnSignalLeftValue;
     const uint8_t turnSignalRightValue;
+    
+    uint8_t ectValues[12];
 
 	const HighSideRole HS1Role;
 	const HighSideRole HS2Role;

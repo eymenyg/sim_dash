@@ -34,6 +34,8 @@ HyundaiDashV1::HyundaiDashV1(
         uint8_t turnSignalIndex,
         uint8_t turnSignalLeftValue,
         uint8_t turnSignalRightValue,
+        
+        const uint8_t calibEctValues[12],
 		
 		bool hasBodyCAN,
 		bool enableTurnSignalSound,
@@ -95,6 +97,9 @@ HyundaiDashV1::HyundaiDashV1(
 		pinMode(HS2Pin, OUTPUT);
 		pinMode(LS1Pin, OUTPUT);
 		pinMode(LS2Pin, OUTPUT);
+        
+        // Apply calibrated ECT values
+        memcpy(ectValues, calibEctValues, 12);
 		
 		//Reset the shift register
 		digitalWrite(masterResetPin, LOW);
@@ -164,11 +169,6 @@ void HyundaiDashV1::tickNeedleSweep() {
             break;
     }
 }
-
-const uint8_t HyundaiDashV1::ectValues[12] = {
-    0x00,0x8F,0x94,0x99,0x9E,0xD4,
-    0xD6,0xD8,0xDB,0xDE,0xE1,0xE6
-};
 
 uint8_t HyundaiDashV1::getEctValueAtIndex(uint8_t index) const {
     return ectValues[index];
