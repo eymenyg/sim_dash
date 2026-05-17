@@ -2,6 +2,8 @@
 
 #include <HyundaiDashV1.h>
 
+const uint8_t calibEctValues[12] = {0, 143, 148, 153, 158, 214, 217, 220, 222, 224, 226, 235};
+
 HyundaiDashV1 cluster(
     // HS1Role, HS2Role
     HyundaiDashV1::HighSideRole::TSG, HyundaiDashV1::HighSideRole::TSG,
@@ -19,6 +21,8 @@ HyundaiDashV1 cluster(
     0x0, 0, 0,
     // turnSignalID, turnSignalIndex, turnSignalLeftValue, turnSignalRightValue
     0x0, 0, 0, 0,
+    // calibEctValues - calibrated ECT values
+    calibEctValues,
     //hasBodyCAN, enableTurnSignalSound, maxSpeed, needleSweep
     true, true, 260, true
 );
